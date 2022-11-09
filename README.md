@@ -2,7 +2,7 @@
 ## prerequisite
 
 * MTCNN - detect faces
-* Facenet - extracting features from the cropped face
+* Facenet - extract features from the cropped face
 
 # Introduction 
 
