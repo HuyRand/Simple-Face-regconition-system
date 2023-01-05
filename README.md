@@ -16,6 +16,9 @@ With the use of already established and well documented models, this program use
 
 * Run Test.ipynb, the system will draw a bounding around your face which notice if it's detecting a face. It will then display the name of the face if it's registered beforehand or notice the face isn't - uknown.
 
+ # Demonstration
+ ![](https://github.com/HuyRand/Simple-Face-regconition-system/blob/main/demo.gif)
+
 # Disclaimer 
 
 The face recognition will run through every single extracted features to compare with the current face detected so it doesn't scale very well with a big database and should be replaced with a classification model to solve such problem
