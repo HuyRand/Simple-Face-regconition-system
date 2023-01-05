@@ -1,5 +1,5 @@
 # Simple face regconition system
-## prerequisite
+## Prerequisite
 
 * MTCNN - detect faces
 * Facenet - extract features from the cropped face
