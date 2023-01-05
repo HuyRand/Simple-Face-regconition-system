@@ -6,7 +6,7 @@
 
 # Introduction 
 
-With the use of already established and well documented models, this program uses such components to deviate a simple system to regconize faces. With the face detected and cropped with MTCNN, we extract its features via Facenet, serialized for storage with pickles. The already saved features which are labeled accordingly to the user whose indentity we want to recognize, are used to compared whether the current face detected is registered in the system. The process is carried out by computate the cosine similarity between the current detected face and every labeled features stored in the database, if the returned result passes a certain threshold which is 0.6, display the name of the recognized individual using the system. Otherwise display as unknown.
+With the use of already established and well documented models, this program uses such components to deviate a simple system to regconize faces. With the face detected and cropped with MTCNN, we extract its features via Facenet, serialized and stored with pickles. The already saved features which are labeled accordingly to the user whose indentity we want to recognize, are used to compared whether the current face detected is registered in the system. The process is carried out by computating the cosine similarity between the current detected face and every labeled features stored in the database, if the returned result passes a certain threshold which is 0.6, display the name of the recognized individual using the system. Otherwise display as unknown.
 
 # Quick start
 
