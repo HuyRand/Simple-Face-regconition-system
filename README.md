@@ -14,7 +14,7 @@ With the use of already established and well documented models, this program use
 
 * Run ExtractingFeatures.ipynb file to extract the features from the cropped images and serilize it for later use
 
-* Run Test.ipynb, the system will draw a bounding around your face which notice if it's detecting a face. It will then display the name of the face if it's registered beforehand or notice the face isn't - uknown.
+* Run Test.ipynb, the system will draw a bounding box around your face which indicates if it's detecting a face. It will then display the name of the face if it's registered beforehand or isn't - uknown.
 
  # Demonstration
  
